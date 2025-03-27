@@ -5,6 +5,11 @@
     --accent: #ca9ee6;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 body {
     font-family: "Figtree", sans-serif;
     background: #1e1e1e;
@@ -68,6 +73,10 @@ p {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 15px;
     justify-content: center;
+    /*
+    max-width: fit-content;
+    margin: 0 auto;
+    */
 }
 
 .skill {
@@ -90,6 +99,10 @@ p {
     animation: glow 2s infinite alternate;
     transform: scale(1.1);
     box-shadow: 0 0 20px var(--accent), 00 25px var(--accent), 0 0 30px var(--accent);
+}
+
+.button-icon {
+    vertical-align: middle;
 }
 
 /* Cool animation stuff */
