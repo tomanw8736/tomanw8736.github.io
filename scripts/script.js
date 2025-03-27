@@ -1,9 +1,6 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const buttons = document.querySelectorAll(".btn");
+// script.js
 
-    buttons.forEach(button => {
-        button.addEventListener("click", function() {
-            console.log("You clicked on " + this.innerText);
-        });
-    });
-});
+window.onload = function() {
+    document.getElementById('loading-screen').style.display = 'none';
+    document.getElementById('main-content').style.display = 'block';
+}
