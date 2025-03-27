@@ -81,15 +81,13 @@ p {
     justify-content: center;
     gap: 8px;
     transition: 0.3s;
+}
+
+.skill:hover {
     border: 1px solid var(--accent);
     box-shadow: 0 0 10px var(--accent);
     text-shadow: 0 0 8px var(--accent);
     animation: glow 2s infinite alternate;
-}
-
-.skill:hover {
-    background: var(--accent);
-    color: #121212;
     transform: scale(1.1);
     box-shadow: 0 0 20px var(--accent), 00 25px var(--accent), 0 0 30px var(--accent);
 }
