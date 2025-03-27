@@ -1,0 +1,51 @@
+/* Figtree font */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: "Figtree", sans-serif;
+    background: #1e1e1e;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #bbb;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    background: #ff9800;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    transition: 0.3s;
+    border: none;
+}
+
+.btn:hover {
+    background: #ff5722;
+}
+
+.btn:active {
+    background: #e65100;
+}
