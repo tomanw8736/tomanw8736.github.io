@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     buttons.forEach(button => {
         button.addEventListener("click", function() {
-            alert("You clicked on " + this.innerText);
+            console.log("You clicked on " + this.innerText);
         });
     });
 });
